@@ -3,8 +3,7 @@ import random
 import time
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
-#QQ交流群877290901
-# 配置参数（降低验证门槛，增加调试信息）
+
 TARGET_URL = "http://103.36.167.120:5000/"
 PROXY_API_URL = "https://tps.kdlapi.com/api/gettps/?secret_id=ooomb8jky84tr6f099or&signature=b10xstm7afm971o87q52janvcsmxygai&num=5&format=xml&sep=1"
 TOTAL_REQUESTS = 1000000
